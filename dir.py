@@ -1,10 +1,10 @@
 import os
 path = os.listdir('D:/workspace')
-for filename in path:
+for index,filename in enumerate(path):
     #対象文字列を検索
-    index = filename.find("vpn")
-    if index != -1:
-        print("found at")
+    str_search = filename.find("vpn") 
+    if str_search != -1:
+        print(path[index])
     else:
         print("not found") 
     
