@@ -1,4 +1,6 @@
 {
     "http.proxy": "http://10.170.49.6:8080",
-    "http.proxyStrictSSL": false 
+    "http.proxyStrictSSL": false,
+    "python.linting.enabled": false,
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin/python3"
 }
